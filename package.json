@@ -1,17 +1,35 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "great-gatsby-bootcamp",
+  "version": "0.1.0",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "keywords": [
+    "gatsby",
+    "practice",
+    "react"
+  ],
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
+  },
   "license": "MIT",
+  "author": "Joseph Morse <tamed.lionheart@gmail.com>",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "build": "gatsby build",
-    "lint": "eslint .",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
+    "lint": "eslint .",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "start": "npm run develop",
+    "test": "jest"
   },
   "dependencies": {
     "gatsby": "^2.7.5",
@@ -19,15 +37,13 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "babel-preset-gatsby": "^0.1.11",
     "eslint": "^5.16.0",
     "eslint-config-jnmorse": "^2.3.1",
-    "prettier": "^1.17.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
+    "react-test-renderer": "^16.8.6"
   }
 }
