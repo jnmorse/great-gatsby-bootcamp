@@ -1,14 +1,31 @@
 {
-  "extends": ["jnmorse"],
-  "rules": {},
+  "extends": [
+    "jnmorse"
+  ],
+  "rules": {
+  },
   "overrides": [
     {
-      "files": ["*.test.js", "*.spec.js", "setupTest.js"],
+      "files": [
+        "__tests__/*.js",
+        "*.test.js",
+        "*.spec.js",
+        "loadshim.js"
+      ],
       "env": {
         "jest": true
       },
       "rules": {
         "max-lines-per-function": "off"
+      }
+    },
+    {
+      "files": [
+        "src/pages/*.js",
+        "src/pages/*.jsx"
+      ],
+      "rules": {
+        "import/no-relative-parent-imports": "off"
       }
     }
   ]
