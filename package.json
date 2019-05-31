@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "lint": "eslint .",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
@@ -18,6 +19,8 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-jnmorse": "^2.3.1",
     "prettier": "^1.17.1"
   },
   "repository": {
