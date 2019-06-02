@@ -8,13 +8,13 @@
     "practice",
     "react"
   ],
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
+  "homepage": "https://jnmorse.github.io/great-gatsby-bootcamp",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jnmorse/great-gatsby-bootcamp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
+    "url": "git+https://github.com/jnmorse/great-gatsby-bootcamp.git"
   },
   "license": "MIT",
   "author": "Joseph Morse <tamed.lionheart@gmail.com>",
