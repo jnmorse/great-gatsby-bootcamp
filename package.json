@@ -25,6 +25,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "lint": "eslint .",
     "serve": "gatsby serve",
@@ -32,8 +33,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "autoprefixer": "^9.5.1",
-    "gatsby": "^2.7.5",
+    "autoprefixer": "^9.6.0",
+    "gatsby": "^2.8.6",
     "gatsby-plugin-postcss": "^2.0.7",
     "postcss-font-magician": "^2.2.1",
     "prop-types": "^15.7.2",
@@ -44,10 +45,10 @@
     "babel-jest": "^24.8.0",
     "babel-preset-gatsby": "^0.1.11",
     "eslint": "^5.16.0",
-    "eslint-config-jnmorse": "^2.3.1",
+    "eslint-config-jnmorse": "^2.4.0",
+    "gh-pages": "^2.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.8.0",
-    "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6"
   }
 }

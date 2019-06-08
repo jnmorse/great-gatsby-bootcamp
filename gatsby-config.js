@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: '/great-gatsby-bootcamp',
   plugins: [
     {
       resolve: 'gatsby-plugin-postcss'
